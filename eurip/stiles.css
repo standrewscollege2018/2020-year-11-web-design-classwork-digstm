@@ -1,7 +1,69 @@
 /* my stiyls */
 
-/* set bacrand couler */
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
+/* baner style for index */
+.baner {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  text-align: center;
+}
+
+/* content for indez */
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* baner for page */
+.maen-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  text-align: center;
+}
+
+/* para for mane part of page */
+.maen-para {
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  overflow: hidden;
+}
+
+
+
+
+/* cards */
+.cards {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card {
+  margin: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card > img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* set bacrand couler */
 body {
   background-color: rgb(20,50,100);
   color: rgb(255, 255, 255);
@@ -10,6 +72,8 @@ body {
 h1 {
   color: rgb(255, 255, 200);
   font-family: monospace;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -17,5 +81,5 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
