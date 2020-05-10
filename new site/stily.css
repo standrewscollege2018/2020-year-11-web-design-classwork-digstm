@@ -1,0 +1,42 @@
+/* stilys */
+
+/* baner */
+.baner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* logo */
+.logo {
+  background-color: rgb(255, 0, 0);
+  padding: 20px;
+}
+
+/* navbare */
+.navbare {
+  background-color: rgb(255, 250, 0);
+  padding: 20px;
+}
+
+
+/* card eraa */
+.contedt-ctare {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+.card {
+  margin: 20px;
+  border: 5px solid rgb(0, 0, 100);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* imiges with cards */
+.card > img {
+  max-width: 100%;
+  height: auto;
+  padding:
+}
