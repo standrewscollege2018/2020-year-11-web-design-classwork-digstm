@@ -16,54 +16,21 @@
 /* content for indez */
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
   padding: 20px;
   margin: 20px;
 }
 
-/* baner for page */
-.maen-content {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 20px;
-  text-align: center;
+.content1 {
+  margin: 30px;
 }
 
-/* para for mane part of page */
-.maen-para {
-  text-align: left;
-  margin-left: 200px;
-  margin-right: 200px;
-  overflow: hidden;
+.content2 {
+  margin: 30px;
 }
 
 
 
-
-/* cards */
-.cards {
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-}
-
-.card {
-  margin: 20px;
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.card > img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-
-/* set bacrand couler */
 body {
   background-color: rgb(20,50,100);
   color: rgb(255, 255, 255);
