@@ -20,7 +20,7 @@
 
 
 /* card eraa */
-.contedt-ctare {
+.content-container {
   margin: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -39,4 +39,8 @@
   max-width: 100%;
   height: auto;
   padding:
+}
+
+.test {
+  margin: 20px;
 }
