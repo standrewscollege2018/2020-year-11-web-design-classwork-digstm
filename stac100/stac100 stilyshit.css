@@ -1,0 +1,32 @@
+
+* {
+  padding: 5px;
+}
+
+
+.banner-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.banner-link {
+  text-align: center;
+}
+
+.banner > img  {
+  max-width: 100%;
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.content-maen {
+
+}
+
+.content-sub {
+  
+}
