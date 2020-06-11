@@ -8,15 +8,15 @@
     <a href="name.php">bak</a>
     <?php
 
+    $topnum
     $num = 1;
-    $top_num = 
-
-    while ($num <= $top_num) {
-    $num_divied = $num % 3;
-    if ($num_divied == 0) {
+    while ($num <= $topnum) {
+    if ($num % 3 == 0)
+    {
       echo "<p>fizbuzz </p>";
-    } else {
-      echo $num;
+    }
+     else {
+      echo "<p>$num</p>";
     }
     $num = $num + 1;
     }
